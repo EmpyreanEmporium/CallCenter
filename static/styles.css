@@ -6,12 +6,35 @@ body {
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
     margin: 0;
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    font-family: 'Muli', sans-serif;
+    background-color: #1b1b1b;
+}
+.actionbox {
+    background-color: #393939;
+    width: 960px;
+    height: 1024px;
+    
+}
+
+.infobox {
+    background-color: #73ACEE;
+    color: azure;
+    justify-content: center;
+    width: 480px;
+    height: 1024px;
+   
+}
+
+.btn1 {
+    color: #73ACEE;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 40;
 }
